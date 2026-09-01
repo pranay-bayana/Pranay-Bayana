@@ -1,10 +1,824 @@
-<html>
-  <head>
-    <title>
-      this is my demo page
-    </title>
-  </head>
-  <body>
-   <h1>this is heading of my page</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bayana Pranay Vara Kumar — CSE (AI & ML) student, Full-Stack Developer and AI/ML enthusiast.">
+  <title>Bayana Pranay Vara Kumar — Developer</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg: #070707;
+      --surface: #101010;
+      --text: #f5f5f5;
+      --muted: #8c8c8c;
+      --line: rgba(255,255,255,0.10);
+      --accent: #ffffff;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 55px 55px;
+      mask-image: linear-gradient(to bottom, black, transparent 85%);
+      z-index: -2;
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,255,255,0.055), transparent 65%);
+      transform: translate(-50%, -50%);
+      left: var(--mouse-x, 50%);
+      top: var(--mouse-y, 35%);
+      pointer-events: none;
+      z-index: -1;
+      transition: left 0.15s ease, top 0.15s ease;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1180px, calc(100% - 40px));
+      margin: auto;
+    }
+
+    /* NAVIGATION */
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+      backdrop-filter: blur(18px);
+      background: rgba(7,7,7,0.72);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav-inner {
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-size: 13px;
+      transition: color 0.25s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text);
+    }
+
+    /* HERO */
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      padding-top: 72px;
+    }
+
+    .hero-content {
+      width: 100%;
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+    }
+
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: 0 0 14px rgba(255,255,255,0.7);
+    }
+
+    .hero h1 {
+      font-size: clamp(54px, 10vw, 142px);
+      line-height: 0.88;
+      letter-spacing: -0.075em;
+      font-weight: 700;
+      max-width: 1100px;
+    }
+
+    .hero h1 span {
+      display: block;
+      color: transparent;
+      -webkit-text-stroke: 1px rgba(255,255,255,0.65);
+    }
+
+    .hero-sub {
+      margin-top: 42px;
+      max-width: 650px;
+      color: #b2b2b2;
+      font-size: clamp(16px, 2vw, 21px);
+    }
+
+    .hero-actions {
+      margin-top: 36px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 20px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: 13px;
+      transition: all 0.3s ease;
+    }
+
+    .button.primary {
+      background: #f5f5f5;
+      color: #070707;
+      border-color: #f5f5f5;
+    }
+
+    .button:hover {
+      transform: translateY(-3px);
+      border-color: rgba(255,255,255,0.4);
+    }
+
+    .hero-meta {
+      position: absolute;
+      bottom: 35px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      color: #666;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    /* SECTIONS */
+
+    section {
+      padding: 130px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .section-label {
+      color: #666;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+
+    .section-title {
+      font-size: clamp(32px, 5vw, 64px);
+      line-height: 1;
+      letter-spacing: -0.045em;
+      margin-bottom: 55px;
+    }
+
+    /* ABOUT */
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 80px;
+    }
+
+    .about-intro {
+      font-size: 24px;
+      line-height: 1.35;
+    }
+
+    .about-text {
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    /* PROJECTS */
+
+    .projects {
+      display: grid;
+      gap: 1px;
+      background: var(--line);
+      border: 1px solid var(--line);
+    }
+
+    .project {
+      background: var(--bg);
+      padding: 40px;
+      display: grid;
+      grid-template-columns: 90px 1fr 70px;
+      gap: 25px;
+      align-items: start;
+      transition: background 0.35s ease;
+    }
+
+    .project:hover {
+      background: #111111;
+    }
+
+    .project-number {
+      color: #555;
+      font-size: 12px;
+      letter-spacing: 0.12em;
+    }
+
+    .project h3 {
+      font-size: clamp(25px, 4vw, 44px);
+      letter-spacing: -0.04em;
+      margin-bottom: 10px;
+    }
+
+    .project p {
+      color: var(--muted);
+      max-width: 650px;
+      font-size: 15px;
+    }
+
+    .project-stack {
+      margin-top: 20px;
+      color: #777;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .project-arrow {
+      font-size: 26px;
+      color: #666;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .project:hover .project-arrow {
+      transform: translate(5px, -5px);
+      color: white;
+    }
+
+    /* STACK */
+
+    .stack-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid var(--line);
+      border-left: 1px solid var(--line);
+    }
+
+    .stack-item {
+      min-height: 145px;
+      padding: 25px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      transition: background 0.3s ease;
+    }
+
+    .stack-item:hover {
+      background: #101010;
+    }
+
+    .stack-item span {
+      display: block;
+      color: #555;
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+
+    .stack-item strong {
+      font-size: 17px;
+      font-weight: 500;
+    }
+
+    /* FOCUS */
+
+    .focus-list {
+      border-top: 1px solid var(--line);
+    }
+
+    .focus-row {
+      padding: 24px 0;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #aaa;
+      transition: padding 0.3s ease, color 0.3s ease;
+    }
+
+    .focus-row:hover {
+      padding-left: 15px;
+      color: white;
+    }
+
+    .focus-row span:first-child {
+      font-size: clamp(18px, 3vw, 30px);
+      letter-spacing: -0.025em;
+    }
+
+    .focus-row span:last-child {
+      color: #555;
+      font-size: 12px;
+    }
+
+    /* CONTACT */
+
+    .contact {
+      min-height: 65vh;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    .contact-inner {
+      width: 100%;
+    }
+
+    .contact h2 {
+      font-size: clamp(48px, 10vw, 130px);
+      line-height: 0.9;
+      letter-spacing: -0.07em;
+      margin-bottom: 35px;
+    }
+
+    .contact p {
+      color: var(--muted);
+      max-width: 500px;
+      margin: 0 auto 35px;
+    }
+
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    /* FOOTER */
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 25px 0;
+      color: #555;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* ANIMATIONS */
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(25px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* MOBILE */
+
+    @media (max-width: 800px) {
+      .container {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero h1 {
+        font-size: clamp(54px, 16vw, 100px);
+      }
+
+      .hero-meta {
+        font-size: 9px;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+      }
+
+      .project {
+        grid-template-columns: 45px 1fr 30px;
+        padding: 28px 20px;
+        gap: 12px;
+      }
+
+      .stack-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .stack-item {
+        min-height: 125px;
+      }
+
+      section {
+        padding: 90px 0;
+      }
+
+      .focus-row span:last-child {
+        display: none;
+      }
+
+      footer {
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="container nav-inner">
+      <div class="logo">PB / 01</div>
+
+      <div class="nav-links">
+        <a href="#about">ABOUT</a>
+        <a href="#work">WORK</a>
+        <a href="#stack">STACK</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="hero">
+      <div class="container hero-content">
+
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          CSE (AI & ML) · FULL-STACK · AI/ML
+        </div>
+
+        <h1>
+          BAYANA PRANAY
+          <span>VARA KUMAR</span>
+        </h1>
+
+        <p class="hero-sub">
+          I build practical software and intelligent systems —
+          turning real-world problems into working products.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#work">EXPLORE WORK ↓</a>
+          <a class="button" href="https://www.linkedin.com/in/pranaybayana9/" target="_blank">
+            LINKEDIN ↗
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span>BASED IN INDIA</span>
+          <span>SCROLL TO EXPLORE ↓</span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about">
+      <div class="container reveal">
+
+        <div class="section-label">01 / ABOUT</div>
+
+        <div class="about-grid">
+
+          <div class="about-intro">
+            <strong>I build systems, not just projects.</strong>
+          </div>
+
+          <div class="about-text">
+            I'm a B.Tech Computer Science & Engineering student
+            specializing in Artificial Intelligence & Machine Learning.
+            My work sits at the intersection of software engineering,
+            algorithms, backend systems, and AI.
+            <br><br>
+            I enjoy taking a problem from an idea to a working product —
+            designing the logic, building the backend, connecting the
+            interface, and making the system useful in practice.
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- WORK -->
+
+    <section id="work">
+      <div class="container reveal">
+
+        <div class="section-label">02 / SELECTED WORK</div>
+
+        <h2 class="section-title">
+          Things I've<br>
+          built.
+        </h2>
+
+        <div class="projects">
+
+          <a class="project" href="https://github.com/pranay-bayana/RoutePilot" target="_blank">
+
+            <div class="project-number">01</div>
+
+            <div>
+              <h3>RoutePilot</h3>
+
+              <p>
+                Multi-stop delivery route optimization engine
+                designed around real-world routing constraints.
+              </p>
+
+              <div class="project-stack">
+                FastAPI · Java · Nearest Neighbor · 2-opt
+              </div>
+            </div>
+
+            <div class="project-arrow">↗</div>
+
+          </a>
+
+
+          <a class="project" href="https://github.com/pranay-bayana" target="_blank">
+
+            <div class="project-number">02</div>
+
+            <div>
+              <h3>FinWise AI</h3>
+
+              <p>
+                Full-stack personal finance platform for tracking,
+                organizing, and understanding financial activity.
+              </p>
+
+              <div class="project-stack">
+                React · Node.js · Supabase · REST APIs
+              </div>
+            </div>
+
+            <div class="project-arrow">↗</div>
+
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- STACK -->
+
+    <section id="stack">
+      <div class="container reveal">
+
+        <div class="section-label">03 / TECHNOLOGY</div>
+
+        <h2 class="section-title">
+          Tools I<br>
+          work with.
+        </h2>
+
+        <div class="stack-grid">
+
+          <div class="stack-item">
+            <span>01 / Language</span>
+            <strong>Python</strong>
+          </div>
+
+          <div class="stack-item">
+            <span>02 / Language</span>
+            <strong>TypeScript</strong>
+          </div>
+
+          <div class="stack-item">
+            <span>03 / Frontend</span>
+            <strong>React</strong>
+          </div>
+
+          <div class="stack-item">
+            <span>04 / Backend</span>
+            <strong>Node.js</strong>
+          </div>
+
+          <div class="stack-item">
+            <span>05 / Backend</span>
+            <strong>FastAPI</strong>
+          </div>
+
+          <div class="stack-item">
+            <span>06 / AI & ML</span>
+            <strong>Scikit-learn</strong>
+          </div>
+
+          <div class="stack-item">
+            <span>07 / Database</span>
+            <strong>PostgreSQL</strong>
+          </div>
+
+          <div class="stack-item">
+            <span>08 / Tools</span>
+            <strong>Docker · Git</strong>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- CURRENT FOCUS -->
+
+    <section>
+      <div class="container reveal">
+
+        <div class="section-label">04 / CURRENT FOCUS</div>
+
+        <h2 class="section-title">
+          Always<br>
+          learning.
+        </h2>
+
+        <div class="focus-list">
+
+          <div class="focus-row">
+            <span>Data Structures & Algorithms</span>
+            <span>01</span>
+          </div>
+
+          <div class="focus-row">
+            <span>Full-Stack Engineering</span>
+            <span>02</span>
+          </div>
+
+          <div class="focus-row">
+            <span>AI / ML Systems</span>
+            <span>03</span>
+          </div>
+
+          <div class="focus-row">
+            <span>Backend & System Design</span>
+            <span>04</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+      <div class="container contact-inner reveal">
+
+        <div class="section-label">05 / CONNECT</div>
+
+        <h2>
+          LET'S<br>
+          BUILD.
+        </h2>
+
+        <p>
+          Interested in software engineering, AI/ML,
+          full-stack development, or building something useful?
+        </p>
+
+        <div class="contact-links">
+
+          <a class="button primary"
+             href="https://www.linkedin.com/in/pranaybayana9/"
+             target="_blank">
+            CONNECT ON LINKEDIN ↗
+          </a>
+
+          <a class="button"
+             href="https://github.com/pranay-bayana"
+             target="_blank">
+            VIEW GITHUB ↗
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="container">
+    <span>© 2026 BAYANA PRANAY VARA KUMAR</span>
+    <span>BUILD · LEARN · ITERATE</span>
+  </footer>
+
+
+  <script>
+
+    /* Mouse-follow ambient glow */
+
+    document.addEventListener("mousemove", function(event) {
+      document.documentElement.style.setProperty(
+        "--mouse-x",
+        event.clientX + "px"
+      );
+
+      document.documentElement.style.setProperty(
+        "--mouse-y",
+        event.clientY + "px"
+      );
+    });
+
+
+    /* Scroll reveal animation */
+
+    const revealElements = document.querySelectorAll(".reveal");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      {
+        threshold: 0.12
+      }
+    );
+
+    revealElements.forEach((element) => {
+      observer.observe(element);
+    });
+
+  </script>
+
+</body>
 </html>
