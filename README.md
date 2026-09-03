@@ -79,59 +79,64 @@
 ### 🛠️ Production Systems & Architecture Showcase
 
 <table>
-  <tr>
-    <!-- RoutePilot Card -->
-    <td width="50%" valign="top" style="background: #0f172a; border: 1px solid #1e293b; border-radius: 10px; padding: 18px;">
-      <div align="left">
-        <a href="https://github.com/pranay-bayana">
-          <img src="https://img.shields.io/badge/LOGISTICS_CORE-RoutePilot-10B981?style=for-the-badge&logo=cargo&logoColor=white&labelColor=0f172a" alt="RoutePilot" />
-        </a>
-      </div>
-      <h3 style="margin-top: 12px; margin-bottom: 6px; color: #f8fafc;">High-Throughput Delivery Routing Engine</h3>
-      <p style="color: #94a3b8; font-size: 13px; line-height: 1.6;">
-        Heuristic solver tackling the NP-hard <b>Traveling Salesperson Problem (TSP)</b> across dense delivery nodes. Implemented <b>Nearest Neighbor clustering</b> paired with iterative <b>2-opt local search</b> optimizations to cut dispatch latency and compute optimal paths in milliseconds.
-      </p>
-      <div style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/Java_SE-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/Heuristics-2--Opt-10B981?style=flat-square" />
-      </div>
-      <p style="margin: 0; font-size: 13px;">
-        <b>Key Highlights:</b> Combinatorial Optimization • Microservice API • Sub-second Dispatch
-      </p>
-      <br/>
-      <a href="https://github.com/pranay-bayana">
-        <img src="https://img.shields.io/badge/Explore_Repository_→-10B981?style=flat-square&logoColor=white&labelColor=0f172a" alt="View Repo" />
-      </a>
-    </td>
+<tr>
+<td width="50%" valign="top">
 
-    <!-- FinWise AI Card -->
-    <td width="50%" valign="top" style="background: #0f172a; border: 1px solid #1e293b; border-radius: 10px; padding: 18px;">
-      <div align="left">
-        <a href="https://github.com/pranay-bayana">
-          <img src="https://img.shields.io/badge/FINTECH_TELEMETRY-FinWise_AI-38BDF8?style=for-the-badge&logo=diagramsdotnet&logoColor=white&labelColor=0f172a" alt="FinWise AI" />
-        </a>
-      </div>
-      <h3 style="margin-top: 12px; margin-bottom: 6px; color: #f8fafc;">Personal Financial Intelligence Platform</h3>
-      <p style="color: #94a3b8; font-size: 13px; line-height: 1.6;">
-        Full-stack transaction telemetry platform engineered for real-time spend analytics. Features automated ledger categorization, deterministic cash-flow forecasting algorithms, and ACID-compliant transaction persistence with row-level security.
-      </p>
-      <div style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=0f172a" />
-        <img src="https://img.shields.io/badge/Telemetry-Cashflow-38BDF8?style=flat-square" />
-      </div>
-      <p style="margin: 0; font-size: 13px;">
-        <b>Key Highlights:</b> Atomic Persistence • Automated Categorization • REST API Design
-      </p>
-      <br/>
-      <a href="https://github.com/pranay-bayana">
-        <img src="https://img.shields.io/badge/Explore_Repository_→-38BDF8?style=flat-square&logoColor=white&labelColor=0f172a" alt="View Repo" />
-      </a>
-    </td>
-  </tr>
+<a href="https://github.com/pranay-bayana">
+  <img src="https://img.shields.io/badge/LOGISTICS_CORE-RoutePilot-10B981?style=for-the-badge&logo=cargo&logoColor=white&labelColor=0f172a" alt="RoutePilot" />
+</a>
+
+### High-Throughput Routing Engine
+
+Heuristic solver tackling the NP-hard **Traveling Salesperson Problem (TSP)** across dense delivery nodes. Implemented **Nearest Neighbor clustering** paired with iterative **2-opt local search** optimizations to cut dispatch latency and compute optimal paths in milliseconds.
+
+<br/>
+
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Java_SE-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Heuristics-2--Opt-10B981?style=flat-square" />
+
+<br/><br/>
+
+**Key Highlights:** Combinatorial Optimization • Microservice API • Sub-second Dispatch
+
+<br/>
+
+<a href="https://github.com/pranay-bayana">
+  <img src="https://img.shields.io/badge/Explore_Repository_→-10B981?style=flat-square&logoColor=white&labelColor=0f172a" alt="View Repo" />
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/pranay-bayana">
+  <img src="https://img.shields.io/badge/FINTECH_TELEMETRY-FinWise_AI-38BDF8?style=for-the-badge&logo=diagramsdotnet&logoColor=white&labelColor=0f172a" alt="FinWise AI" />
+</a>
+
+### Financial Intelligence Platform
+
+Full-stack transaction telemetry platform engineered for real-time spend analytics. Features automated ledger categorization, deterministic cash-flow forecasting algorithms, and ACID-compliant transaction persistence with row-level security.
+
+<br/>
+
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=0f172a" />
+<img src="https://img.shields.io/badge/Telemetry-Cashflow-38BDF8?style=flat-square" />
+
+<br/><br/>
+
+**Key Highlights:** Atomic Persistence • Automated Categorization • REST API Design
+
+<br/>
+
+<a href="https://github.com/pranay-bayana">
+  <img src="https://img.shields.io/badge/Explore_Repository_→-38BDF8?style=flat-square&logoColor=white&labelColor=0f172a" alt="View Repo" />
+</a>
+
+</td>
+</tr>
 </table>
 ---
 
