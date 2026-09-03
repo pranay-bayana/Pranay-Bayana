@@ -1,271 +1,94 @@
 <div align="center">
 
-# BAYANA PRANAY VARA KUMAR
+# Bayana Pranay Vara Kumar
 
-### CSE (AI & ML) · SOFTWARE ENGINEERING
+### CSE (AI & ML) • Software Engineer • Systems & Backend
 
-<br>
+<p align="center">
+  <em>"Engineering robust systems at the intersection of algorithms, architecture, and applied AI."</em>
+</p>
 
-**I build systems, not just projects.**
-
-<br>
-
-`Software` · `Algorithms` · `Artificial Intelligence`
-
-<br><br>
-
-<a href="https://www.linkedin.com/in/pranaybayana9/">
-<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pranaybayana9)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pranaybayana9@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://github.com/pranay-bayana)
 
 </div>
 
-<br>
-
 ---
+
+### 01. Core Architecture & Skills
+
+| Domain | Stack & Competencies |
+| :--- | :--- |
+| **Languages** | Python, C++, Java, JavaScript, TypeScript, SQL |
+| **Backend & APIs** | FastAPI, Node.js, Express, REST APIs, System Design |
+| **Databases & Cloud** | PostgreSQL, Supabase, Docker, Git, Linux |
+| **AI / ML & Analytics** | Scikit-learn, Optimization Algorithms, Heuristics, Data Structures |
+
+<br>
 
 <div align="center">
 
-## 01 · ENGINEERING IDENTITY
+<!-- Tech Badges -->
+<img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts,fastapi,nodejs,react,postgres,supabase,docker,git" />
 
-<br>
+</div>
+
+---
+
+### 02. Featured Projects
 
 <table>
-<tr>
-
-<td align="center" width="20%">
-
-### 🤖
-
-**AI / ML**
-
-Intelligent Systems
-
-</td>
-
-<td align="center" width="20%">
-
-### ⚙️
-
-**SOFTWARE**
-
-Engineering
-
-</td>
-
-<td align="center" width="20%">
-
-### 🧩
-
-**BACKEND**
-
-Systems
-
-</td>
-
-<td align="center" width="20%">
-
-### 🧠
-
-**ALGORITHMS**
-
-Optimization
-
-</td>
-
-<td align="center" width="20%">
-
-### 📊
-
-**DATA**
-
-Analytics
-
-</td>
-
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="left">🚚 RoutePilot</h3>
+      <p><b>Multi-Stop Delivery Route Optimization</b></p>
+      <p>High-throughput logistics system designed to solve complex traveling salesperson & vehicle routing problems using heuristic optimization (Nearest Neighbor, 2-opt).</p>
+      <p>
+        <code>FastAPI</code> • <code>Java</code> • <code>Algorithms</code> • <code>Docker</code>
+      </p>
+      <a href="https://github.com/pranay-bayana"><b>View Repository →</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="left">📈 FinWise AI</h3>
+      <p><b>Personal Financial Intelligence Engine</b></p>
+      <p>Full-stack financial analytics application featuring automated transaction categorization, cash-flow forecasting, and multi-tenant persistence.</p>
+      <p>
+        <code>React</code> • <code>Node.js</code> • <code>PostgreSQL</code> • <code>Supabase</code>
+      </p>
+      <a href="https://github.com/pranay-bayana"><b>View Repository →</b></a>
+    </td>
+  </tr>
 </table>
 
-<br>
+---
 
-> **Building practical software at the intersection of systems, algorithms, and artificial intelligence.**
+### 03. Engineering Philosophy & Focus
 
+* **How I Build**:
+  1. **Deconstruct the Core Problem**: Model constraints and system edge cases before touching the keyboard.
+  2. **Architect with Intent**: Select lightweight, performant data paths over unnecessary microservices.
+  3. **Optimize & Refactor**: Measure latency, write clean tests, and iterate systematically.
+
+* **Current Focus Areas**:
+  * Distributed backend performance & concurrency patterns
+  * Applied heuristics for large-scale combinatorial optimization
+  * Deepening Low-Level System Design & Assembly/Memory-efficient code
+
+---
+
+### 04. GitHub Activity & Metrics
+
+<div align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=pranay-bayana&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranay-bayana&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
-
-<br>
 
 ---
 
 <div align="center">
-
-## 02 · SELECTED WORK
-
-</div>
-
-<br>
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-### 🚀 RoutePilot
-
-**Multi-Stop Delivery Route Optimization**
-
-A logistics system focused on constructing and refining delivery routes across multiple stops.
-
-<br>
-
-**TECH**
-
-`FastAPI` · `Java`
-
-`Nearest Neighbor` · `2-opt`
-
-<br>
-
-**FOCUS**
-
-`Algorithms` · `Optimization` · `Backend`
-
-</td>
-
-<td width="50%" valign="top">
-
-### 💳 FinWise AI
-
-**Personal Finance Intelligence**
-
-A full-stack platform for tracking, organizing, and understanding personal financial activity.
-
-<br>
-
-**TECH**
-
-`React` · `Node.js`
-
-`Supabase` · `PostgreSQL`
-
-<br>
-
-**FOCUS**
-
-`Full-Stack` · `Backend` · `Data`
-
-</td>
-
-</tr>
-</table>
-
-<br>
-
----
-
-<div align="center">
-
-## 03 · TECHNOLOGY
-
-<br>
-
-<img src="https://skillicons.dev/icons?i=python,cpp,js,ts,react,nodejs,fastapi,postgres,supabase,docker,git,github&perline=6" />
-
-<br><br>
-
-`Python` · `C++` · `JavaScript` · `TypeScript`
-
-`React` · `Node.js` · `FastAPI` · `REST APIs`
-
-`Scikit-learn` · `PostgreSQL` · `Supabase` · `Docker`
-
-</div>
-
-<br>
-
----
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-### ⚡ ENGINEERING
-
-`AI / ML`
-
-`Full-Stack Development`
-
-`Backend Engineering`
-
-`Algorithms & Data Structures`
-
-`Optimization`
-
-`Data Analytics`
-
-`System Design`
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🧠 HOW I BUILD
-
-**01** · Understand the problem
-
-**02** · Design the system
-
-**03** · Build the solution
-
-**04** · Refine the result
-
-</td>
-
-</tr>
-</table>
-
-<br>
-
----
-
-<div align="center">
-
-## 04 · CURRENTLY
-
-<br>
-
-### BUILDING · LEARNING · EXPERIMENTING
-
-<br>
-
-`Data Structures` · `Backend Engineering` · `AI/ML` · `System Design`
-
-<br><br>
-
-**Learn by building. Improve by iterating.**
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-## EXPLORE MORE
-
-<br>
-
-Projects, experience, learning, and my professional journey →
-
-<br><br>
-
-<a href="https://www.linkedin.com/in/pranaybayana9/">
-<img src="https://img.shields.io/badge/EXPLORE%20LINKEDIN-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<br><br>
-
-### BUILD · LEARN · ITERATE
-
+  <p><b>Open to collaborative engineering, open-source initiatives, and software engineering internships/roles.</b></p>
+  <a href="https://linkedin.com/in/pranaybayana9">
+    <img src="https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 </div>
