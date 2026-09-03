@@ -30,24 +30,49 @@
 
 ---
 
-### ⚡ Technical Capabilities
+### ⚡ Technical Arsenal & System Stack
 
-<div align="center">
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts,fastapi,nodejs,postgres,supabase,docker,git,linux&theme=dark&perline=12" alt="Tech Stack" />
-</a>
-
-<br/><br/>
-
-| Domain | Core Stack |
-| :--- | :--- |
-| **Languages** | `Python` `C++` `Java` `JavaScript` `TypeScript` `SQL` |
-| **Backend & Systems** | `FastAPI` `Node.js` `REST APIs` `Microservices` `System Design` |
-| **Data & Infrastructure**| `PostgreSQL` `Supabase` `Docker` `Linux` `Git` |
-| **Algorithms & AI** | `Scikit-learn` `Heuristic Search` `Graph Algorithms` `Data Structures` |
-
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top" style="border: 1px solid #1E293B; background: #0F172A; padding: 14px; border-radius: 8px;">
+      <h4 style="margin: 0 0 10px 0;">⚡ Core Systems & Languages</h4>
+      <p style="margin: 0 0 12px 0; color: #94A3B8; font-size: 13px;">Low-level programming, typed systems, and performance scripting:</p>
+      <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+    </td>
+    <td width="50%" valign="top" style="border: 1px solid #1E293B; background: #0F172A; padding: 14px; border-radius: 8px;">
+      <h4 style="margin: 0 0 10px 0;">🛠️ Backend Architecture & APIs</h4>
+      <p style="margin: 0 0 12px 0; color: #94A3B8; font-size: 13px;">High-throughput services, system design, and distributed backends:</p>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/REST_APIs-007ACC?style=for-the-badge&logo=postman&logoColor=white" />
+      <img src="https://img.shields.io/badge/Microservices-10B981?style=for-the-badge&logo=dependabot&logoColor=white" />
+      <img src="https://img.shields.io/badge/System_Design-0F172A?style=for-the-badge&logo=diagramsdotnet&logoColor=10B981" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" style="border: 1px solid #1E293B; background: #0F172A; padding: 14px; border-radius: 8px;">
+      <h4 style="margin: 0 0 10px 0;">💾 Data Systems & Cloud Infrastructure</h4>
+      <p style="margin: 0 0 12px 0; color: #94A3B8; font-size: 13px;">Relational schemas, container orchestration, and environments:</p>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=0f172a" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/Linux_CLI-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+    </td>
+    <td width="50%" valign="top" style="border: 1px solid #1E293B; background: #0F172A; padding: 14px; border-radius: 8px;">
+      <h4 style="margin: 0 0 10px 0;">🧠 Algorithms & Applied AI</h4>
+      <p style="margin: 0 0 12px 0; color: #94A3B8; font-size: 13px;">Algorithmic problem solving and heuristic optimization:</p>
+      <img src="https://img.shields.io/badge/Data_Structures-10B981?style=for-the-badge&logo=codefactor&logoColor=white" />
+      <img src="https://img.shields.io/badge/Graph_Algorithms-38BDF8?style=for-the-badge&logo=thealgorithms&logoColor=0f172a" />
+      <img src="https://img.shields.io/badge/Combinatorial_Search-7928CA?style=for-the-badge&logoColor=white" />
+      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+    </td>
+  </tr>
+</table>
 
 ---
 
