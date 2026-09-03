@@ -1,94 +1,90 @@
 <div align="center">
 
-# Bayana Pranay Vara Kumar
+<!-- Modern SVG Dynamic Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,20&height=220&section=header&text=PRANAY%20VARAKUMAR&fontSize=52&fontColor=ffffff&fontAlignY=42&desc=Systems%20%26%20Backend%20Engineer%20%7C%20AI%20%26%20ML&descAlignY=62&descAlign=50" width="100%"/>
 
-### CSE (AI & ML) • Software Engineer • Systems & Backend
+<br/>
 
-<p align="center">
-  <em>"Engineering robust systems at the intersection of algorithms, architecture, and applied AI."</em>
-</p>
+<!-- Social Badges -->
+<a href="https://linkedin.com/in/pranaybayana9">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+&nbsp;
+<a href="mailto:pranaybayana9@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://github.com/pranay-bayana?tab=repositories">
+  <img src="https://img.shields.io/badge/Repositories-101010?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pranaybayana9)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pranaybayana9@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://github.com/pranay-bayana)
+<br/><br/>
+
+<!-- Typing SVG Animation -->
+<a href="https://github.com/pranay-bayana">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=Building+scalable+systems%2C+not+just+projects.;Specializing+in+Distributed+Backends+%26+Applied+AI.;Algorithms+%7C+Low-Level+Optimization+%7C+System+Design." alt="Typing SVG" />
+</a>
 
 </div>
 
 ---
 
-### 01. Core Architecture & Skills
-
-| Domain | Stack & Competencies |
-| :--- | :--- |
-| **Languages** | Python, C++, Java, JavaScript, TypeScript, SQL |
-| **Backend & APIs** | FastAPI, Node.js, Express, REST APIs, System Design |
-| **Databases & Cloud** | PostgreSQL, Supabase, Docker, Git, Linux |
-| **AI / ML & Analytics** | Scikit-learn, Optimization Algorithms, Heuristics, Data Structures |
-
-<br>
+### ⚡ Technical Arsenal
 
 <div align="center">
 
-<!-- Tech Badges -->
-<img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts,fastapi,nodejs,react,postgres,supabase,docker,git" />
+| Area | Technologies |
+| :--- | :--- |
+| **Languages** | `Python` `C++` `Java` `JavaScript` `TypeScript` `SQL` |
+| **Backend & Architecture** | `FastAPI` `Node.js` `REST APIs` `System Design` `Microservices` |
+| **Data & Cloud Infrastructure** | `PostgreSQL` `Supabase` `Docker` `Git` `Linux` |
+| **AI & Core CS** | `Scikit-Learn` `Algorithms & Data Structures` `Combinatorial Heuristics` |
+
+<br/>
+
+<!-- Clean Icon Grid -->
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts,fastapi,nodejs,postgres,supabase,docker,git,linux&perline=12" />
+</a>
 
 </div>
 
 ---
 
-### 02. Featured Projects
+### 🛠️ Selected Systems & Architectures
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="left">🚚 RoutePilot</h3>
-      <p><b>Multi-Stop Delivery Route Optimization</b></p>
-      <p>High-throughput logistics system designed to solve complex traveling salesperson & vehicle routing problems using heuristic optimization (Nearest Neighbor, 2-opt).</p>
+      <h3>🚚 RoutePilot</h3>
+      <p><b>Multi-Stop Delivery Route Optimization Engine</b></p>
+      <p>High-efficiency vehicle routing system leveraging <b>Nearest Neighbor</b> and <b>2-opt</b> heuristics to eliminate NP-hard routing bottlenecks in logistics.</p>
       <p>
-        <code>FastAPI</code> • <code>Java</code> • <code>Algorithms</code> • <code>Docker</code>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
       </p>
-      <a href="https://github.com/pranay-bayana"><b>View Repository →</b></a>
+      <a href="https://github.com/pranay-bayana"><b>Explore Architecture →</b></a>
     </td>
     <td width="50%" valign="top">
-      <h3 align="left">📈 FinWise AI</h3>
-      <p><b>Personal Financial Intelligence Engine</b></p>
-      <p>Full-stack financial analytics application featuring automated transaction categorization, cash-flow forecasting, and multi-tenant persistence.</p>
+      <h3>📊 FinWise AI</h3>
+      <p><b>Automated Financial Intelligence Engine</b></p>
+      <p>End-to-end telemetry and tracking engine for financial activity with automated heuristic categorization, cash-flow projection, and atomic DB transactions.</p>
       <p>
-        <code>React</code> • <code>Node.js</code> • <code>PostgreSQL</code> • <code>Supabase</code>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
       </p>
-      <a href="https://github.com/pranay-bayana"><b>View Repository →</b></a>
+      <a href="https://github.com/pranay-bayana"><b>Explore Architecture →</b></a>
     </td>
   </tr>
 </table>
 
 ---
 
-### 03. Engineering Philosophy & Focus
+### ⚙️ Engineering Principles
 
-* **How I Build**:
-  1. **Deconstruct the Core Problem**: Model constraints and system edge cases before touching the keyboard.
-  2. **Architect with Intent**: Select lightweight, performant data paths over unnecessary microservices.
-  3. **Optimize & Refactor**: Measure latency, write clean tests, and iterate systematically.
-
-* **Current Focus Areas**:
-  * Distributed backend performance & concurrency patterns
-  * Applied heuristics for large-scale combinatorial optimization
-  * Deepening Low-Level System Design & Assembly/Memory-efficient code
-
----
-
-### 04. GitHub Activity & Metrics
-
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=pranay-bayana&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranay-bayana&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-
----
-
-<div align="center">
-  <p><b>Open to collaborative engineering, open-source initiatives, and software engineering internships/roles.</b></p>
-  <a href="https://linkedin.com/in/pranaybayana9">
-    <img src="https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</div>
+```text
+01. DISSECT FIRST  → Clarify edge cases and data flow before implementing code.
+02. PERFORMANCE    → Optimize data structures, reduce time complexity, minimize latency.
+03. RELIABILITY    → Design systems that fail gracefully under load and scale cleanly.
