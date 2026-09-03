@@ -8,68 +8,70 @@
   <em>Building scalable, high-throughput systems, resilient backends, and algorithmic architectures.</em>
 </p>
 
-<!-- Social & Contact Badges -->
+<!-- Unified Single-Color Contact Badges -->
 <a href="https://linkedin.com/in/pranaybayana9">
-  <img src="https://img.shields.io/badge/LinkedIn-10B981?style=for-the-badge&logo=linkedin&logoColor=0f172a&labelColor=38BDF8" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-00B4D8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="mailto:pranaybayana9@gmail.com">
-  <img src="https://img.shields.io/badge/Email-10B981?style=for-the-badge&logo=gmail&logoColor=0f172a&labelColor=38BDF8" alt="Email" />
+  <img src="https://img.shields.io/badge/Email-00B4D8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email" />
 </a>
 &nbsp;
 <a href="https://github.com/pranay-bayana?tab=repositories">
-  <img src="https://img.shields.io/badge/Repositories-10B981?style=for-the-badge&logo=github&logoColor=0f172a&labelColor=38BDF8" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Repositories-00B4D8?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub" />
 </a>
 
 <br/><br/>
 
-<!-- Dynamic Terminal Status Line -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2500&pause=1000&color=38BDF8&background=0F172A&center=true&vCenter=true&width=650&height=45&lines=%E2%9E%A4+Pranay+Vara+Kumar+%7C+Distributed+Systems+%26+Applied+AI;%E2%9E%A4+Building+scalable+systems%2C+not+just+projects;%E2%9E%A4+Low-Level+Optimization+%7C+Heuristics+%7C+System+Design" alt="Typing Status" />
+<!-- Single-Color Typing Line -->
+<a href="https://github.com/pranay-bayana">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2500&pause=1000&color=00B4D8&center=true&vCenter=true&width=650&lines=%E2%9E%A4+Pranay+Vara+Kumar+%7C+Distributed+Systems+%26+Applied+AI;%E2%9E%A4+Building+scalable+systems%2C+not+just+projects;%E2%9E%A4+Low-Level+Optimization+%7C+Heuristics+%7C+System+Design" alt="Typing Status" />
+</a>
 
 </div>
 
 ---
 
-### ⚡ Technical Arsenal & System Stack
+### ⚡ Technical Capabilities
 
 <table>
   <tr>
-    <td width="50%" valign="top" style="border: 1px solid #1E293B; background: #0F172A; padding: 14px; border-radius: 8px;">
-      <h4 style="margin: 0 0 10px 0;">⚡ Core Systems & Languages</h4>
-      <p style="margin: 0 0 12px 0; color: #94A3B8; font-size: 13px;">Low-level programming, typed systems, and performance scripting:</p>
-      <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+    <td width="50%" valign="top">
+      <h4>⚡ Core Systems & Languages</h4>
+      <p>Low-level programming, typed systems, and performance scripting:</p>
+      <img src="https://img.shields.io/badge/C++-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Java-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Python-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/TypeScript-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/SQL-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
     </td>
-    <td width="50%" valign="top" style="border: 1px solid #1E293B; background: #0F172A; padding: 14px; border-radius: 8px;">
-      <h4 style="margin: 0 0 10px 0;">🛠️ Backend Architecture & APIs</h4>
-      <p style="margin: 0 0 12px 0; color: #94A3B8; font-size: 13px;">High-throughput services, system design, and distributed backends:</p>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/REST_APIs-007ACC?style=for-the-badge&logo=postman&logoColor=white" />
-      <img src="https://img.shields.io/badge/Microservices-10B981?style=for-the-badge&logo=dependabot&logoColor=white" />
-      <img src="https://img.shields.io/badge/System_Design-0F172A?style=for-the-badge&logo=diagramsdotnet&logoColor=10B981" />
+    <td width="50%" valign="top">
+      <h4>🛠️ Backend Architecture & APIs</h4>
+      <p>High-throughput services, system design, and distributed backends:</p>
+      <img src="https://img.shields.io/badge/FastAPI-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Node.js-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/REST_APIs-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Microservices-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/System_Design-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" style="border: 1px solid #1E293B; background: #0F172A; padding: 14px; border-radius: 8px;">
-      <h4 style="margin: 0 0 10px 0;">💾 Data Systems & Cloud Infrastructure</h4>
-      <p style="margin: 0 0 12px 0; color: #94A3B8; font-size: 13px;">Relational schemas, container orchestration, and environments:</p>
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=0f172a" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-      <img src="https://img.shields.io/badge/Linux_CLI-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+    <td width="50%" valign="top">
+      <h4>💾 Data Systems & Cloud Infrastructure</h4>
+      <p>Relational schemas, container orchestration, and environments:</p>
+      <img src="https://img.shields.io/badge/PostgreSQL-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Supabase-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Docker-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Linux_CLI-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Git-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
     </td>
-    <td width="50%" valign="top" style="border: 1px solid #1E293B; background: #0F172A; padding: 14px; border-radius: 8px;">
-      <h4 style="margin: 0 0 10px 0;">🧠 Algorithms & Applied AI</h4>
-      <p style="margin: 0 0 12px 0; color: #94A3B8; font-size: 13px;">Algorithmic problem solving and heuristic optimization:</p>
-      <img src="https://img.shields.io/badge/Data_Structures-10B981?style=for-the-badge&logo=codefactor&logoColor=white" />
-      <img src="https://img.shields.io/badge/Graph_Algorithms-38BDF8?style=for-the-badge&logo=thealgorithms&logoColor=0f172a" />
-      <img src="https://img.shields.io/badge/Combinatorial_Search-7928CA?style=for-the-badge&logoColor=white" />
-      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+    <td width="50%" valign="top">
+      <h4>🧠 Algorithms & Applied AI</h4>
+      <p>Algorithmic problem solving and heuristic optimization:</p>
+      <img src="https://img.shields.io/badge/Data_Structures-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Graph_Algorithms-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Combinatorial_Search-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Scikit--Learn-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" />
     </td>
   </tr>
 </table>
@@ -83,7 +85,7 @@
 <td width="50%" valign="top">
 
 <a href="https://github.com/pranay-bayana">
-  <img src="https://img.shields.io/badge/LOGISTICS_CORE-RoutePilot-10B981?style=for-the-badge&logo=cargo&logoColor=white&labelColor=0f172a" alt="RoutePilot" />
+  <img src="https://img.shields.io/badge/LOGISTICS_CORE-RoutePilot-00B4D8?style=for-the-badge&logoColor=white&labelColor=0d1117" alt="RoutePilot" />
 </a>
 
 ### High-Throughput Routing Engine
@@ -92,10 +94,10 @@ Heuristic solver tackling the NP-hard **Traveling Salesperson Problem (TSP)** ac
 
 <br/>
 
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Java_SE-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Heuristics-2--Opt-10B981?style=flat-square" />
+<img src="https://img.shields.io/badge/FastAPI-00B4D8?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Java_SE-00B4D8?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Docker-00B4D8?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Heuristics_2--Opt-00B4D8?style=flat-square&labelColor=0d1117" />
 
 <br/><br/>
 
@@ -104,14 +106,14 @@ Heuristic solver tackling the NP-hard **Traveling Salesperson Problem (TSP)** ac
 <br/>
 
 <a href="https://github.com/pranay-bayana">
-  <img src="https://img.shields.io/badge/Explore_Repository_→-10B981?style=flat-square&logoColor=white&labelColor=0f172a" alt="View Repo" />
+  <img src="https://img.shields.io/badge/Explore_Repository_→-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" alt="View Repo" />
 </a>
 
 </td>
 <td width="50%" valign="top">
 
 <a href="https://github.com/pranay-bayana">
-  <img src="https://img.shields.io/badge/FINTECH_TELEMETRY-FinWise_AI-38BDF8?style=for-the-badge&logo=diagramsdotnet&logoColor=white&labelColor=0f172a" alt="FinWise AI" />
+  <img src="https://img.shields.io/badge/FINTECH_TELEMETRY-FinWise_AI-00B4D8?style=for-the-badge&logoColor=white&labelColor=0d1117" alt="FinWise AI" />
 </a>
 
 ### Financial Intelligence Platform
@@ -120,10 +122,10 @@ Full-stack transaction telemetry platform engineered for real-time spend analyti
 
 <br/>
 
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=0f172a" />
-<img src="https://img.shields.io/badge/Telemetry-Cashflow-38BDF8?style=flat-square" />
+<img src="https://img.shields.io/badge/Node.js-00B4D8?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/PostgreSQL-00B4D8?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Supabase-00B4D8?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Telemetry-00B4D8?style=flat-square&labelColor=0d1117" />
 
 <br/><br/>
 
@@ -132,14 +134,19 @@ Full-stack transaction telemetry platform engineered for real-time spend analyti
 <br/>
 
 <a href="https://github.com/pranay-bayana">
-  <img src="https://img.shields.io/badge/Explore_Repository_→-38BDF8?style=flat-square&logoColor=white&labelColor=0f172a" alt="View Repo" />
+  <img src="https://img.shields.io/badge/Explore_Repository_→-00B4D8?style=flat-square&logoColor=white&labelColor=0d1117" alt="View Repo" />
 </a>
 
 </td>
 </tr>
 </table>
+
 ---
 
-<img src="https://img.shields.io/badge/LOOKING_FOR-SWE_ROLES-10B981?style=flat-square&labelColor=0F172A" />
-
+<div align="center">
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE_BUILDING-00B4D8?style=flat-square&labelColor=0d1117" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/FOCUS-DISTRIBUTED_BACKENDS-00B4D8?style=flat-square&labelColor=0d1117" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/LOOKING_FOR-SWE_ROLES-00B4D8?style=flat-square&labelColor=0d1117" />
 </div>
