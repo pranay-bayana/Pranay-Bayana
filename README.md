@@ -82,18 +82,6 @@
 
 ---
 
-### 📊 Repository Activity & Consistency
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=pranay-bayana&theme=dark&background=0F172A&border=10B981&stroke=10B981&ring=38BDF8&fire=10B981&currStreakLabel=10B981&sideNums=38BDF8&currStreakNum=FFFFFF" alt="Streak Stats" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/STATUS-ACTIVE_BUILDING-10B981?style=flat-square&labelColor=0F172A" />
-&nbsp;
-<img src="https://img.shields.io/badge/FOCUS-DISTRIBUTED_BACKENDS-38BDF8?style=flat-square&labelColor=0F172A" />
-&nbsp;
 <img src="https://img.shields.io/badge/LOOKING_FOR-SWE_ROLES-10B981?style=flat-square&labelColor=0F172A" />
 
 </div>
