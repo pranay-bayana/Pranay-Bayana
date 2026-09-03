@@ -1,28 +1,28 @@
 <div align="center">
 
-<!-- Industrial Precision Header (XML-Safe) -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=121417&height=180&section=header&text=BAYANA%20PRANAY%20VARA%20KUMAR&fontSize=42&fontColor=FF9900&fontAlignY=45&desc=SYSTEMS%20ENGINEER%20%20%7C%20%20BACKEND%20%26%20DISTRIBUTED%20COMPUTING&descAlignY=66&descAlign=50&stroke=FF9900&strokeWidth=2" width="100%"/>
+# ⚡ BAYANA PRANAY VARA KUMAR
+#### SYSTEMS ENGINEER • BACKEND ARCHITECTURE • DISTRIBUTED COMPUTING
 
 <br/>
 
-<!-- Industrial Badges -->
+<!-- Industrial Amber Badges -->
 <a href="https://linkedin.com/in/pranaybayana9">
-  <img src="https://img.shields.io/badge/LinkedIn-FF9900?style=for-the-badge&logo=linkedin&logoColor=0b0e14&labelColor=1c2128" />
+  <img src="https://img.shields.io/badge/LinkedIn-FF9900?style=for-the-badge&logo=linkedin&logoColor=0b0e14&labelColor=1c2128" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="mailto:pranaybayana9@gmail.com">
-  <img src="https://img.shields.io/badge/Direct_Mail-E2E8F0?style=for-the-badge&logo=gmail&logoColor=FF9900&labelColor=1c2128" />
+  <img src="https://img.shields.io/badge/Direct_Mail-E2E8F0?style=for-the-badge&logo=gmail&logoColor=FF9900&labelColor=1c2128" alt="Email" />
 </a>
 &nbsp;
 <a href="https://github.com/pranay-bayana?tab=repositories">
-  <img src="https://img.shields.io/badge/Codebases-FF9900?style=for-the-badge&logo=git&logoColor=white&labelColor=1c2128" />
+  <img src="https://img.shields.io/badge/Codebases-FF9900?style=for-the-badge&logo=git&logoColor=white&labelColor=1c2128" alt="GitHub Repos" />
 </a>
 
 <br/><br/>
 
 <!-- Amber Monospace Typing Feed -->
 <a href="https://github.com/pranay-bayana">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=900&color=FF9900&center=true&vCenter=true&width=620&lines=%E2%86%92+Designing+fault-tolerant+backends+%26+data+pipelines;%E2%86%92+Optimizing+combinatorial+heuristics+(TSP%2C+2-opt);%E2%86%92+CS+Foundations+%7C+Low-Level+Memory+%7C+Algorithmic+Efficiency" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=900&color=FF9900&center=true&vCenter=true&width=620&lines=-+Designing+fault-tolerant+backends+and+pipelines;-+Optimizing+combinatorial+heuristics+(TSP%2C+2-opt);-+CS+Foundations+%7C+Low-Level+Memory+%7C+Algorithms" alt="Typing SVG" />
 </a>
 
 </div>
@@ -41,7 +41,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,java,python,ts,postgres,fastapi,nodejs,docker,linux,git&theme=dark&perline=10" />
+  <img src="https://skillicons.dev/icons?i=cpp,java,python,ts,postgres,fastapi,nodejs,docker,linux,git&theme=dark&perline=10" alt="Tech Icons" />
 </div>
 
 ---
