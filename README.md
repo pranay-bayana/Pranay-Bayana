@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/LinkedIn-00B4D8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn" />
 </a>
 &nbsp;
-<a href="mailto:pranaybayana9@gmail.com">
+<a href="mailto:pranaybayana22@gmail.com">
   <img src="https://img.shields.io/badge/Email-00B4D8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email" />
 </a>
 &nbsp;
