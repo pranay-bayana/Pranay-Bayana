@@ -1,88 +1,99 @@
 <div align="center">
 
 # ⚡ BAYANA PRANAY VARA KUMAR
-#### SYSTEMS ENGINEER • BACKEND ARCHITECTURE • DISTRIBUTED COMPUTING
+### Systems & Backend Engineer • AI & ML • Distributed Systems
 
-<br/>
+<p align="center">
+  <b>Computer Science & Engineering (AI & ML)</b><br/>
+  <em>Building scalable, high-throughput systems, resilient backends, and algorithmic architectures.</em>
+</p>
 
-<!-- Industrial Amber Badges -->
+<!-- Social & Contact Badges -->
 <a href="https://linkedin.com/in/pranaybayana9">
-  <img src="https://img.shields.io/badge/LinkedIn-FF9900?style=for-the-badge&logo=linkedin&logoColor=0b0e14&labelColor=1c2128" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-10B981?style=for-the-badge&logo=linkedin&logoColor=0f172a&labelColor=38BDF8" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="mailto:pranaybayana9@gmail.com">
-  <img src="https://img.shields.io/badge/Direct_Mail-E2E8F0?style=for-the-badge&logo=gmail&logoColor=FF9900&labelColor=1c2128" alt="Email" />
+  <img src="https://img.shields.io/badge/Email-10B981?style=for-the-badge&logo=gmail&logoColor=0f172a&labelColor=38BDF8" alt="Email" />
 </a>
 &nbsp;
 <a href="https://github.com/pranay-bayana?tab=repositories">
-  <img src="https://img.shields.io/badge/Codebases-FF9900?style=for-the-badge&logo=git&logoColor=white&labelColor=1c2128" alt="GitHub Repos" />
+  <img src="https://img.shields.io/badge/Repositories-10B981?style=for-the-badge&logo=github&logoColor=0f172a&labelColor=38BDF8" alt="GitHub" />
 </a>
 
 <br/><br/>
 
-<!-- Amber Monospace Typing Feed -->
-<a href="https://github.com/pranay-bayana">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=900&color=FF9900&center=true&vCenter=true&width=620&lines=-+Designing+fault-tolerant+backends+and+pipelines;-+Optimizing+combinatorial+heuristics+(TSP%2C+2-opt);-+CS+Foundations+%7C+Low-Level+Memory+%7C+Algorithms" alt="Typing SVG" />
-</a>
+<!-- Dynamic Terminal Status Line -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2500&pause=1000&color=38BDF8&background=0F172A&center=true&vCenter=true&width=650&height=45&lines=%E2%9E%A4+Pranay+Vara+Kumar+%7C+Distributed+Systems+%26+Applied+AI;%E2%9E%A4+Building+scalable+systems%2C+not+just+projects;%E2%9E%A4+Low-Level+Optimization+%7C+Heuristics+%7C+System+Design" alt="Typing Status" />
 
 </div>
 
 ---
 
-### ⚙️ Engine Room & Core Stack
-
-| Layer | Technologies |
-| :--- | :--- |
-| **Core Systems** | `C++` `Java` `Python` `SQL` `TypeScript` |
-| **Backend Services** | `FastAPI` `Node.js` `REST Protocols` `System Design` `Concurrency` |
-| **Data & Runtime** | `PostgreSQL` `Supabase` `Docker Engine` `Linux / POSIX` `Git` |
-| **Applied Analytics** | `Scikit-Learn` `Combinatorial Heuristics` `Algorithms & Data Structures` |
-
-<br/>
+### ⚡ Technical Capabilities
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,java,python,ts,postgres,fastapi,nodejs,docker,linux,git&theme=dark&perline=10" alt="Tech Icons" />
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts,fastapi,nodejs,postgres,supabase,docker,git,linux&theme=dark&perline=12" alt="Tech Stack" />
+</a>
+
+<br/><br/>
+
+| Domain | Core Stack |
+| :--- | :--- |
+| **Languages** | `Python` `C++` `Java` `JavaScript` `TypeScript` `SQL` |
+| **Backend & Systems** | `FastAPI` `Node.js` `REST APIs` `Microservices` `System Design` |
+| **Data & Infrastructure**| `PostgreSQL` `Supabase` `Docker` `Linux` `Git` |
+| **Algorithms & AI** | `Scikit-learn` `Heuristic Search` `Graph Algorithms` `Data Structures` |
+
 </div>
 
 ---
 
-### 📦 Key Implementations
+### 🛠️ Production Systems & Architectures
 
 <table>
   <tr>
-    <td width="50%" valign="top" style="border: 1px solid #30363d; background-color: #0b0e14; padding: 16px;">
-      <h4>⚡ RoutePilot</h4>
-      <p><b>Multi-Stop Logistics Optimization Engine</b></p>
-      <p>Heuristic solver designed for the NP-hard Traveling Salesperson Problem (TSP). Implements <b>Nearest Neighbor</b> cluster creation and <b>2-opt local search</b> heuristics to minimize multi-point delivery route latency.</p>
+    <td width="50%" valign="top">
+      <h3 align="left">🚚 RoutePilot</h3>
+      <p><b>Multi-Stop Delivery Route Optimization</b></p>
+      <p>Logistics dispatch solver tackling NP-hard vehicle routing via <b>Nearest Neighbor</b> cluster creation and <b>2-opt iterative heuristics</b> for sub-second route dispatching.</p>
       <p>
-        <img src="https://img.shields.io/badge/Core-FastAPI-1c2128?style=flat&labelColor=FF9900&color=1c2128"/>
-        <img src="https://img.shields.io/badge/Lang-Java-1c2128?style=flat&labelColor=FF9900&color=1c2128"/>
-        <img src="https://img.shields.io/badge/Runtime-Docker-1c2128?style=flat&labelColor=FF9900&color=1c2128"/>
+        <img src="https://img.shields.io/badge/FastAPI-10B981?style=flat&logo=fastapi&logoColor=white&labelColor=0f172a"/>
+        <img src="https://img.shields.io/badge/Java-38BDF8?style=flat&logo=openjdk&logoColor=white&labelColor=0f172a"/>
+        <img src="https://img.shields.io/badge/Docker-10B981?style=flat&logo=docker&logoColor=white&labelColor=0f172a"/>
       </p>
-      <a href="https://github.com/pranay-bayana"><b>Review Source Architecture →</b></a>
+      <a href="https://github.com/pranay-bayana"><b>View Architecture →</b></a>
     </td>
-    <td width="50%" valign="top" style="border: 1px solid #30363d; background-color: #0b0e14; padding: 16px;">
-      <h4>⚡ FinWise AI</h4>
-      <p><b>Automated Financial Telemetry Engine</b></p>
-      <p>Real-time analytics backend featuring atomic ledger operations, cash-flow forecasting algorithms, and schema-level validation over structured relational data.</p>
+    <td width="50%" valign="top">
+      <h3 align="left">📈 FinWise AI</h3>
+      <p><b>Personal Financial Telemetry Platform</b></p>
+      <p>Full-stack financial tracking engine featuring automated expense categorization, multi-tenant persistence, and deterministic cash-flow telemetry.</p>
       <p>
-        <img src="https://img.shields.io/badge/Service-Node.js-1c2128?style=flat&labelColor=FF9900&color=1c2128"/>
-        <img src="https://img.shields.io/badge/DB-PostgreSQL-1c2128?style=flat&labelColor=FF9900&color=1c2128"/>
-        <img src="https://img.shields.io/badge/BaaS-Supabase-1c2128?style=flat&labelColor=FF9900&color=1c2128"/>
+        <img src="https://img.shields.io/badge/Node.js-10B981?style=flat&logo=nodedotjs&logoColor=white&labelColor=0f172a"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-38BDF8?style=flat&logo=postgresql&logoColor=white&labelColor=0f172a"/>
+        <img src="https://img.shields.io/badge/Supabase-10B981?style=flat&logo=supabase&logoColor=white&labelColor=0f172a"/>
       </p>
-      <a href="https://github.com/pranay-bayana"><b>Review Source Architecture →</b></a>
+      <a href="https://github.com/pranay-bayana"><b>View Architecture →</b></a>
     </td>
   </tr>
 </table>
 
 ---
 
-### 📐 Systems Methodology
+### 📊 Repository Activity & Consistency
 
-```yaml
-01_ARCHITECTURE:
-  rule: "Design interfaces and identify edge constraints before writing logic."
-02_OPTIMIZATION:
-  rule: "Benchmark Big-O in design, profile memory allocations at runtime."
-03_RELIABILITY:
-  rule: "Favor simple data structures over deep abstractions."
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=pranay-bayana&theme=dark&background=0F172A&border=10B981&stroke=10B981&ring=38BDF8&fire=10B981&currStreakLabel=10B981&sideNums=38BDF8&currStreakNum=FFFFFF" alt="Streak Stats" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/STATUS-ACTIVE_BUILDING-10B981?style=flat-square&labelColor=0F172A" />
+&nbsp;
+<img src="https://img.shields.io/badge/FOCUS-DISTRIBUTED_BACKENDS-38BDF8?style=flat-square&labelColor=0F172A" />
+&nbsp;
+<img src="https://img.shields.io/badge/LOOKING_FOR-SWE_ROLES-10B981?style=flat-square&labelColor=0F172A" />
+
+</div>
