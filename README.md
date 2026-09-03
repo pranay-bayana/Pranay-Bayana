@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Industrial Precision Header -->
+<!-- Industrial Precision Header (XML-Safe) -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=121417&height=180&section=header&text=BAYANA%20PRANAY%20VARA%20KUMAR&fontSize=42&fontColor=FF9900&fontAlignY=45&desc=SYSTEMS%20ENGINEER%20%20%7C%20%20BACKEND%20%26%20DISTRIBUTED%20COMPUTING&descAlignY=66&descAlign=50&stroke=FF9900&strokeWidth=2" width="100%"/>
 
 <br/>
@@ -20,7 +20,7 @@
 
 <br/><br/>
 
-<!-- Amber Monospace Feed -->
+<!-- Amber Monospace Typing Feed -->
 <a href="https://github.com/pranay-bayana">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=900&color=FF9900&center=true&vCenter=true&width=620&lines=%E2%86%92+Designing+fault-tolerant+backends+%26+data+pipelines;%E2%86%92+Optimizing+combinatorial+heuristics+(TSP%2C+2-opt);%E2%86%92+CS+Foundations+%7C+Low-Level+Memory+%7C+Algorithmic+Efficiency" alt="Typing SVG" />
 </a>
@@ -40,7 +40,6 @@
 
 <br/>
 
-<!-- Monochromatic Tech Badges (Theme: Dark Slate & White) -->
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cpp,java,python,ts,postgres,fastapi,nodejs,docker,linux,git&theme=dark&perline=10" />
 </div>
